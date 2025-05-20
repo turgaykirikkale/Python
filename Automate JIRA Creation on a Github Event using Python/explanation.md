@@ -31,3 +31,7 @@ commet ==> GITHUB ==>webhook ==> EC2(PYTHON APPLICATION) ==>API ==> JIRA
 3= Deploy to Server
 4= How to setup Github Webhook
 5= conditionale Handling
+
+POST, GET, PUT, DELETE type of HTTP and you can use with all system GİTHUB POSTING TO PYTHON APPLİCATION ON EC2 INSTANCE and PYTHON APPLICATION POST THE APPLICATION JIRA TOO.
+
+for create GITHUB WEBHook I need to find my EC2 istance URL or PUBLİC IPv4 DNS, go github click settings button and paste that copied adress to webhook adress http://---------:5000/createJira content type application/Json and then for triggering ı need to select to ındividual events for trigger the event ı will selecet issue Comments and python immediately run the test action and 
